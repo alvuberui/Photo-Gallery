@@ -1,0 +1,112 @@
+/* Diseño de la primera fila que contiene el texto */
+#contenedor-texto {
+    margin-top: 10px;
+}
+
+/* Diseño para los botones */
+#contenedor-boton {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+}
+
+
+#contenedor-boton button {
+    background-color: white;
+    color: black;
+    padding: 3px 15px;
+    border: solid gray 1px;
+    border-radius: 8px;
+    width: 30%;
+    transition-duration: 500ms;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+#contenedor-boton button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Diseño para los resultados de la busqueda */
+#contenedor-contenido {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 400px;
+    margin-top: 30px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+#avatar-cuerpo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    margin-top: 5px;
+    float: left;
+}
+
+
+#div-usuarios p {
+    float: left;
+    margin-top: 5px;
+    margin-left: 4px;
+}
+
+#div-usuarios {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#contenedor-contenido-fotos {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: 1px solid gray;
+    border-radius: 8px;
+    height: 450px;
+    margin-top: 30px;
+    overflow: auto;
+    margin-bottom: 30px;
+}
+
+#contenedor-contenido-fotos h5 {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#columna-fotos {
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}

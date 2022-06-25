@@ -1,0 +1,53 @@
+#fila-foto {
+    margin-top: 20px;
+}
+
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.card-body img {
+    margin: auto;
+    display: block;
+    border-radius: 5px;
+    max-width: 580px;
+    max-height: 290px;
+}
+
+.card-body {
+    height: 100%;
+    width: 100%;
+}
+
+.card-header p{
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 20px;
+    color: black;
+}
+
+.card-header a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+
+/* ------------ Estilo para el footer 1 ------------ */
+#fecha-hora {
+    text-align: center;
+    margin-bottom: -5px;
+    margin-top: -5px;
+}
+
+
+
+/* Estilo para el footer 2 */
+#footer2 a {
+    display: block;
+    width: 100%;
+}

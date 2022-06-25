@@ -1,0 +1,69 @@
+/* Estilo para el div info-perfil */
+#foto-usuario img {
+    width: 120px;
+    height: 120px;
+    margin-top: 10px;
+    margin-left: 32%;
+}
+
+#informacion h3, h4, h5{
+    text-align: center;
+}
+
+#informacion h3 {
+    margin-top: 10px;
+}
+
+#boton-logout {
+    display: block;
+    margin: 20%;
+    margin-top: 40px;
+    background-color: #C21414;
+    border-radius: 8px;
+}
+
+#boton-logout:hover {
+    background-color: darkred;
+}
+
+/* Estilo para la barra de selección */
+#fila-barra {
+    border-width: 3px;
+    border-style: solid;
+    border-right: none;
+    border-left: none;
+}
+
+#button-publicas{
+    margin: auto;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#button-privadas {
+    margin: auto;
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+
+#col-barra a:hover {
+    color: white;
+    background-color: black;
+}
+
+/* Estilo del grid de imagenes */
+
+
+.card{
+    margin-top: 20px;
+    margin-left: 42px;
+}
+

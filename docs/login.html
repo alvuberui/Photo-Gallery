@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <!-- Bootsrap -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <script src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script src="/js/libs/popper.min.js"></script>
+        <script src="/js/libs/bootstrap.min.js"></script>
+        <script src="/js/utils/include.js"></script>
+
+        <title>Photo Gallery | Iniciar sesión</title>
+        <link rel="icon" href="/images/icono.png">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/css/login.css">
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js/header.js" type="module"></script>
+        <script src="js/login.js" type="module"></script>
+        <script src="js/libs/axios.min.js"></script>
+    </head>
+
+    <body>
+        <div id="page-header">
+            <script>
+                include("header.html", "#page-header");
+            </script>
+        </div>
+
+
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md">
+                    <div id="errors"></div>
+                </div>
+            </div>
+        <!-- Contenido del registro-->
+            <div class="row" id="container-formulario">
+                <div class="col-md" >
+
+                    <form action="#" id="login-form">
+                        <h2>Iniciar sesión</h2>
+                        <div class="row">
+                            <div class="col-md" id="input">
+                                <label>Nombre de usuario</label>
+                                <input type="text" placeholder="Escriba su nombre de usuario" name="username" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md" id="input">
+                                <label for="username">Contraseña</label>
+                                <input type="password" placeholder="Escriba su contraseña" name="password" required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md" id="input">
+                                <a href="inicio.html"><button type="submit" class="registerbtn">Iniciar sesión</button></a>
+                            </div>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="row" id="register">
+                <div class="col-md">
+                    <p>
+                        ¿Aún no tienes cuenta? Haz click
+                        <a href="register.html">
+                            aquí 
+                        </a>
+                        para registrarte.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>

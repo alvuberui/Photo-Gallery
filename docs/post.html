@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/css/font-awesome.min.css">
+        <script src="/js/libs/jquery-3.4.1.min.js"></script>
+        <script src="/js/libs/popper.min.js"></script>
+        <script src="/js/libs/bootstrap.min.js"></script>
+        <script src="/js/utils/include.js"></script>
+
+        <title>Photo Gallery | Subir foto</title>
+        <link rel="icon" href="/images/icono.png">
+        <link rel="stylesheet" href="/css/header.css">
+        <link rel="stylesheet" href="/docs/css/publicar.css">
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <script src="js/post.js" type="module"></script>
+        <script src="js/libs/axios.min.js"></script>
+        <script src="js/header.js" type="module"></script>
+    </head>
+
+    <body>
+        <div id="page-header">
+            <script>
+                include("header.html", "#page-header");
+            </script>
+        </div>
+
+
+        <div class="container">
+            <div class="row" id="container-contenido">
+                <div class="col-md" id="container-contenido">
+
+                    <form action="#" id="post-form">
+
+                        <div class="row">
+                            <div class="col-md">
+                                <div id="errors"></div>
+                            </div>
+                        </div>
+
+                        <div class="row" id="formulario">
+                            <div clas="col-md" id="col-izquierda">
+                                <label for="titulo">Añade una foto:</label>
+                            </div>
+                            <div class="col-md" id="col-derecha">
+                                <input type="text" placeholder="Inserte la URL de la foto..." id="input-foto" name="url" required>
+                            </div>
+                        </div>
+
+                        <div class="row" id="formulario">
+                            <div clas="col-md" id="col-izquierda">
+                                <label for="titulo">Añade un título a la foto:</label>
+                            </div>
+                            <div class="col-md" id="col-derecha">
+                                <input type="text" placeholder="Inserte aquí el título de la foto..." id="input-titulo" name="title" required>
+                            </div>
+                        </div>
+
+                        <div class="row" id="formulario">
+                            <div clas="col-md" id="col-izquierda">
+                                <label for="descripcion">Añade una descripcion a la foto:</label>
+                            </div>
+                            <div class="col-md" id="col-derecha">
+                                <input type="text" placeholder="Inserte aquí la descripcion de la foto..." id="input-descripcion" name="description" required>
+                            </div>
+                        </div>
+
+                        <div class="row" id="formulario">
+                            <div clas="col-md" id="col-izquierda">
+                                <label for="privacidad">Privacidad de la foto:</label>
+                            </div>
+                            <div class="col-md" id="col-derecha">
+                                <fieldset id="input-visibilidad">
+                                    <label for="publica">Pública</label>
+                                    <input type="radio" value="Public" name="visibility" id="input-visibilidad" required>
+                                    <label for="privada">Privada</label>
+                                    <input type="radio" value="Private" name="visibility" required>
+                                </fieldset>
+                            </div>
+                        </div>
+
+                        <div class="row" id="formulario">
+                            <div clas="col-md" id="columna-boton">
+                                <button type="submit">Publicar foto</button >
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

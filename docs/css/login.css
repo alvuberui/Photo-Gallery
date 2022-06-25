@@ -1,0 +1,81 @@
+/* Diseño para el contenedor del formulario */
+#container-formulario {
+    border: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 35rem;
+    min-width: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#container-formulario h2 {
+    text-align: center;
+    font-family: Helvetica;
+    margin-top: 20px;
+}
+
+/* Estilo para los elementos del formulario */
+
+#input input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#container-formulario input:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+    background-color: #0074d9;
+    color: white;
+    padding: 16px 20px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.registerbtn:hover {
+    background-color: #0074f9;
+    text-decoration: none;
+}
+
+#boton a {
+    text-decoration: none;
+}
+
+/* Estilo para el texto de inicio de sesión */
+#register {
+    margin: auto;
+    max-width: 35rem;
+    min-width: 15px;
+}
+
+#register p{
+    text-align: center;
+    margin-top: -25px;
+}
+
+#register a {
+    text-decoration: none;
+}
+
+label {
+    margin-top: 20px;
+    font-weight: 550;
+}

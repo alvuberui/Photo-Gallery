@@ -1,0 +1,92 @@
+/* Estilo para el contenedor del formulario */
+.row #container-contenido {
+    border-width: 3px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 100px;
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    background-color: white;
+
+}
+
+.col-md #container-contenido {
+    width: 60%;
+}
+
+/* Estilo para el contenido del formulario */
+#col-izquierda {
+    margin-left: 10px;
+}
+
+#formulario {
+    margin-top: 20px;
+}
+
+/* Estilo de botones, bloques de textos, etc */
+.label-foto:hover {
+    background-color: black;
+    color: white;
+}
+
+#input-titulo {
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid;
+    margin-top: -5px;
+}
+
+#input-descripcion {
+    width: 100%;
+    padding: 50px;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid;
+    margin-top: -5px;
+}
+
+#input-categoria {
+    width: 100%;
+    padding: 8px;
+    display: inline-block;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    border: 1px solid;
+    margin-top: -5px;
+}
+
+#formulario button{
+    font-weight: 600;
+    color: black;
+    background-color: white;
+    display: inline-block;
+    transition: all .5s;
+    cursor: pointer;
+    padding: 5px 40px !important;
+    text-transform: uppercase;
+    width: fit-content;
+    text-align: center;
+    border: solid 1px;
+    border-radius: 8px;
+}
+
+#formulario button:hover {
+    color: white;
+    background-color: black;
+}
+
+#columna-boton {
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
